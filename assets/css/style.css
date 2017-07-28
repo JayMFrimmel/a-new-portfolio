@@ -1,5 +1,7 @@
 body {
-	margin: 0px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
 }
 
 h1 {
@@ -40,7 +42,7 @@ nav a: first-child {
 /* body */
 #hero {
 	margin: auto;
-	border: 3px solid green;
+	border-bottom: 3px solid green;
 	padding: 10px;
 }
 #about-me {
@@ -113,6 +115,9 @@ button {
 }
 
 footer {
+	margin-top: 5px;
+	border-top: 3px solid black;
+	padding: 8px;
 	text-align: center;
 	color: black
 	font-size:20px;
